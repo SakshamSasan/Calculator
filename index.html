@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="calc d-flex flex-column flex-nowrap rounded p-2">
+	<div class="w-100 d-flex flex-row-reverse" id="screen">
+		<h2 class="h-100 m-0">0</h2>
+	</div>
+	<div class="w-100">
+		<div class="row w-100 h-100  d-flex flex-nowrap  mx-0">
+			<div class="h-100 col-3 bg-light border border-dark d-flex justify-content-center align-items-center" id="AC"><h3>AC</h3></div>
+			<div class="h-100 col-3 bg-light border border-dark d-flex justify-content-center align-items-center operations" data-value="inverse"><h3>+/-</h3></div>
+			<div class="h-100 col-3 bg-light border border-dark d-flex justify-content-center align-items-center operations" data-value="percent"><h3>%</h3></div>
+			<div class="h-100 col-3 bg-custom border border-dark d-flex justify-content-center align-items-center operations" data-value="/"><h3>/</h3></div>
+		</div>
+	</div>
+	<div class="w-100">
+		<div class="row w-100 h-100  d-flex flex-nowrap mx-0">
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='7'><h3>7</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='8'><h3>8</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='9'><h3>9</h3></div>
+			<div class="h-100 col bg-custom border border-dark d-flex justify-content-center align-items-center operations" data-value="*"><h3>*</h3></div>
+		</div>
+	</div>
+	<div class="w-100">
+		<div class="row w-100 h-100  d-flex flex-nowrap mx-0">
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='4'><h3>4</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='5'><h3>5</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='6'><h3>6</h3></div>
+			<div class="h-100 col bg-custom border border-dark d-flex justify-content-center align-items-center operations" data-value="-"><h3>-</h3></div>
+		</div>
+	</div>
+	<div class="w-100">
+		<div class="row w-100 h-100  d-flex flex-nowrap mx-0">
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='1'><h3>1</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='2'><h3>2</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='3'><h3>3</h3></div>
+			<div class="h-100 col bg-custom border border-dark d-flex justify-content-center align-items-center operations" data-value="+"><h3>+</h3></div>
+		</div>
+	</div>
+	<div class="w-100">
+		<div class="row w-100 h-100  d-flex flex-nowrap mx-0">
+			<div class="h-100 col-6 bg-light border border-dark d-flex justify-content-center align-items-center digit" data-value='0'><h3>0</h3></div>
+			<div class="h-100 col bg-light border border-dark d-flex justify-content-center align-items-center" id="point"><h3>.</h3></div>
+			<div class="h-100 col border border-dark d-flex justify-content-center align-items-center" style="background-color: rgba(242,162,60,1);" id="equal"><h3>=</h3></div>
+			
+		</div>
+	</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
